@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey / Registration Form</title>
+</head>
+<body>
+    <form>
+    <h1> Survey/ Registration Form</h1>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+    <br/><br/>
+    <label for="email">Email:</label>
+    <input type="email" name="email" id="email" placeholder="Enter your email" required>
+    <br/><br/>
+    <label for="number">Age:</label>
+    <input type="number" id="number" min="1" max="100" name="number" placeholder="Enter Age" required>
+    <br/><br/>
+    <label>Gender:</label>
+    <input type="radio" name="gender" id="male" value="male">
+    <label for="male">Male</label>
+    <input type="radio" name="gender" id="female" value="female">
+    <label for="female">Female</label>
+    <input type="radio" name="gender" id="others" value="others">
+    <label for="others">Others</label>
+    <br/><br/>
+    <label for="hobbies">Hobbies/interests:</label>
+    <input type="checkbox" id="reading" name="reading">
+    <label for="reading">Reading</label>
+    <input type="checkbox" id="dancing" name="dancing">
+    <label for="dancing">Dancing</label>
+    <input type="checkbox" id="playing" name="playing">
+    <label for="playing">Playing</label>
+    <br/><br/>
+    <label for="country">Country:</label>
+    <select id="country" name="country">
+        <option value="" disabled selected>Select your  country</option>
+        <option>USA</option>
+        <option>INDIA</option>
+    </select>
+    <br/><br/>
+    <label for="feedback">Feedback:</label>
+    <textarea id="feedback" rows="4" cols="40" name="feedback" placeholder="Enter your Feedback"></textarea>
+    <br/><br/>
+    <button type="submit">Submit</button>
+    <button type="reset">Reset</button>
+    </form>
+
+
+</body>
+</html>
+
+
+
